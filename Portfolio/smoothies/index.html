@@ -16,6 +16,9 @@
 	<!-- Google Fonts -->
 	<link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet">
 
+	<!-- Link to icons for Font Awesome 5 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+
 	<!-- Styles for Cookie Consent Popup Message  -->
 	<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" />
 
@@ -105,6 +108,33 @@
         
 
 	</div><!-- End parent flexbox container -->
+
+	<!-- =============== BEGIN EMAIL SIGN UP FORM HTML ============= -->
+
+	<!-- Begin container for email signup form -->
+	<div class="container-form-email-signup">
+
+		<h3>Join our email list</h3>
+        <p>Keep me up-to-date with your latest healthy smoothie recipes and special offers.</p>
+
+        <!-- Form begins here -->
+		<form id="email-signup-form" name="email-signup-form" accept-charset="utf-8"  method="post" action="https://formspree.io/bcroatto@gmail.com">
+
+			<!-- Begin email sign up form fields -->
+			
+			<div class="flex-row">
+				<label for="email-address">Email:</label>
+                <input type="text" id="email-address" name="email-address" placeholder="Your email address" maxlength="80" autocapitalize="none" required>
+                <input type="hidden" name="_subject" id="email-subject" value="Email Signup Form Submission">
+				<button id="btn-submit" type="submit" class="btn-submit">Subscribe <i class="fas fa-arrow-circle-right"></i></button>
+			</div>
+			<!-- End email sign up form fields -->
+		</form>
+        <!-- Form ends here -->
+	</div>
+	
+	<!-- End container for email signup form -->
+	<!-- =============== END EMAIL SIGN UP FORM HTML ============= -->
 
 	  <!-- JavaScript for Cookie Consent Popup Message --> 
 	  <script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js" data-cfasync="false"></script>
