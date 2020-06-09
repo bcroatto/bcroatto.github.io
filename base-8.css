@@ -143,7 +143,7 @@ ul li, ol li {
  
 /* Desktop */
 @media all and (min-width:768px) {
-    ul, ol { margin-left: 6% }
+    ul, ol { margin-left: 3% }
     ul li, ol li {
        line-height: 1.6;
        margin-bottom: 2%;
