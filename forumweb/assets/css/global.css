@@ -445,6 +445,11 @@ a[href^=tel] { text-decoration: none; color: #03318c }
 
 /* ============== FAUX BUTTONS =================== */
 
+a.button:link i,
+a.button:visited i,
+a.button:hover i,
+a.button:active i { margin-left: 12px }
+
 a.button:link, a.button:visited, a.button:hover, a.button:active { 
     text-decoration: none;
     color: #fff;
